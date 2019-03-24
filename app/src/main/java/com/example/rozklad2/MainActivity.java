@@ -48,21 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        TextView busiktextview2 = (TextView) findViewById(R.id.busikZkon);
-
-        busiktextview2.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the txtview is clicked on.
-            @Override
-            public void onClick(View view) {
-                // Create a new intent to open the {@link }
-                Intent busikIntent2 = new Intent(MainActivity.this, KonToCzwaBusikActivity.class);
-
-                // Start the new activity
-                startActivity(busikIntent2);
-            }
-
-
-        });
 
         TextView gtvtextview2 = (TextView) findViewById(R.id.GTVZkon);
 
@@ -79,6 +64,24 @@ public class MainActivity extends AppCompatActivity {
 
 
         });
+
+        TextView busiktextview2 = (TextView) findViewById(R.id.busikZkon);
+
+        busiktextview2.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the txtview is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link }
+                Intent busikIntent2 = new Intent(MainActivity.this, KonToCzwaBusikActivity.class);
+
+                // Start the new activity
+                startActivity(busikIntent2);
+            }
+
+
+        });
+
+
 
 
     }

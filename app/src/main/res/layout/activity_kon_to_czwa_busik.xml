@@ -8,7 +8,7 @@
 
 
     <com.github.chrisbanes.photoview.PhotoView
-        android:id="@+id/photo_busik_zKon"
+        android:id="@+id/photo_busik_z_kon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
