@@ -12,8 +12,8 @@ public class busik_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_busik_activity);
 
-        PhotoView photoView = (PhotoView) findViewById(R.id.photo_busik_rozklad);
-        photoView.setImageResource(R.drawable.busik_crop);
+        PhotoView photoView1 = (PhotoView) findViewById(R.id.photo_busik_rozklad);
+        photoView1.setImageResource(R.drawable.busik_crop);
 
 
     }

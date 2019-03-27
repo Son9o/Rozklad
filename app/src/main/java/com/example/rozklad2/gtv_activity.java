@@ -15,8 +15,8 @@ public class gtv_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gtv_activity);
 
-        PhotoView photoView = (PhotoView) findViewById(R.id.photo_GTV_zCzwa);
-        photoView.setImageResource(R.drawable.gtv_crop);
+        PhotoView photoView2 = (PhotoView) findViewById(R.id.photo_GTV_zCzwa);
+        photoView2.setImageResource(R.drawable.gtv_crop);
 
     }
 }

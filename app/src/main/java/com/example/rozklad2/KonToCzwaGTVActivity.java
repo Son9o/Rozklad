@@ -13,7 +13,7 @@ public class KonToCzwaGTVActivity extends AppCompatActivity {
         setContentView(R.layout.activity_kon_to_czwa_gtv);
 
 
-        PhotoView photoView = (PhotoView) findViewById(R.id.photo_GTV_zKon);
-        photoView.setImageResource(R.drawable.gtv_crop_z_kon);
+        PhotoView photoView3 = (PhotoView) findViewById(R.id.photo_GTV_zKon);
+        photoView3.setImageResource(R.drawable.gtv_crop_z_kon);
     }
 }
